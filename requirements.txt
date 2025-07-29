@@ -1,1 +1,16 @@
-pycryptodome
+# Cryptographic hash function used for keccak256 (Ethereum's default)
+pycryptodome>=3.20.0
+
+# Argument parsing is part of Python standard library, added for clarity
+# argparse (built-in, no need to install separately)
+
+# Optional: Tools for linting and formatting (recommended for development)
+black>=24.0.0          # Code formatter
+flake8>=7.0.0          # Linting
+mypy>=1.8.0            # Static type checking
+
+# Optional: For testing
+pytest>=8.0.0          # Unit testing framework
+
+# Optional: For packaging or future CLI publishing
+setuptools>=70.0.0
